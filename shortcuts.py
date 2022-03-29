@@ -2,6 +2,7 @@
 
 import os
 import re
+import string
 from functools import reduce
 from io import StringIO, IOBase
 from os import PathLike
@@ -10,6 +11,22 @@ from typing import Generator, Iterable
 from typing import List, Sequence, Union
 
 from unidecode import unidecode
+
+
+def camelcase(txt: str) -> str:
+    """
+    Returns the string ``txt`` formatted to camelcase.
+
+    Args:
+        txt: str
+            The string to format.
+
+    Returns: str
+    """
+
+    from string import capwords
+
+    return ''.join(capwords(re.sub('\_|\-', ' ', txt)).split())
 
 
 def chunks(lst, n):
