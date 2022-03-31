@@ -5,7 +5,7 @@ readme = Path(__file__).parent.joinpath('README.md').read_text()
 requirements = Path(__file__).parent.joinpath('requirements.txt').read_text().splitlines()
 
 setup(
-    name='automation_shortcuts',
+    name='automation',
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
