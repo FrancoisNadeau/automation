@@ -6,6 +6,7 @@ requirements = Path(__file__).parent.joinpath('requirements.txt').read_text().sp
 
 setup(
     name='automation',
+    version="0.1.0",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
