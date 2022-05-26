@@ -15,3 +15,7 @@ https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-c
 ``sizeof_fmt``
 
 https://stackoverflow.com/questions/1094841/get-human-readable-version-of-file-size
+
+``ig_f``
+
+https://stackoverflow.com/questions/15663695/shutil-copytree-without-files/15664273#15664273
